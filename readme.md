@@ -1,6 +1,8 @@
 # GDMA Guy
 **GDMA Guy** is a GBC hardware demo that initiates a General DMA transfer every frame, outside of VBlank.
 
+![GDMA Guy on BGB](guy-bgb.png) <img src="guy-ags101.png" alt="GDMA Guy on AGS-101" style="height: 200x; width:200px;"/>
+
 This would typically be considered Doing It Wrong, but there's a reason I decided to demonstrate such--on hardware, the effects differ depending on which one you're using. 
 * In double speed mode, the GBC and original GBA display serious graphical garbage on the transferred data, whereas the GBA SP displays very little artifacting, if any (AGS-101 at least, I don't have a 001 to test it on). Single speed has glitching regardless.
 * Also, on any hardware, the first 8 scanlines are blanked out, something which doesn't happen on accurate emulators (BGB, Sameboy, Emulicious, etc.) at the time of writing. 
