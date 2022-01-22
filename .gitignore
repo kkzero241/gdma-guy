@@ -1,0 +1,4 @@
+*.o
+*.gb
+/guy-anim/*.2bpp
+
