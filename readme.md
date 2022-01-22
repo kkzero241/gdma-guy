@@ -3,6 +3,12 @@
 
 ![GDMA Guy on BGB](guy-bgb.png) <img src="guy-ags101.png" alt="GDMA Guy on AGS-101" style="height: 200x; width:200px;"/>
 
+*(GDMA Guy on BGB vs. GBA SP)*
+
+https://user-images.githubusercontent.com/15271137/150653927-9e07c158-6fdd-434d-af45-d05e1f432d0c.mp4
+
+*(GDMA Guy on Game Boy Player, courtesy of ISSOtm)*
+
 This would typically be considered Doing It Wrong, but there's a reason I decided to demonstrate such--on hardware, the effects differ depending on which one you're using. 
 * In double speed mode, the GBC and original GBA display serious graphical garbage on the transferred data, whereas the GBA SP displays very little artifacting, if any. Single speed has glitching regardless.
 * Also, on any hardware, the first 8 scanlines are blanked out, something which doesn't happen on accurate emulators (BGB, Sameboy, Emulicious, etc.) at the time of writing. 
@@ -17,5 +23,5 @@ I feel this could be very beneficial to better understanding how the GBC hardwar
 * While the AGS-101 doesn't have the Guy's glitching, there's still a little red line that appears/disappears repeatedly next to the "G" in "GDMA". Any reason other than just artifacting? Why this out of everything else?
 
 # Special Thanks
-* ISSOtm, whose [GB ASM Tutorial](https://eldred.fr/gb-asm-tutorial/) gave me a lift in getting the code set up
+* ISSOtm, whose [GB ASM Tutorial](https://eldred.fr/gb-asm-tutorial/) gave me a lift in getting the code set up. Also did testing and contributed to this repo.
 * Jeremy Oduber for [Fonts for GB Studio](https://jeremyoduber.itch.io/fonts-for-gb-studio)
